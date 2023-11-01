@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dftsp0yyr654t"
+path="res://.godot/imported/railings.obj-ae060a691d9e1ec9cd7ec9e21d58e632.mesh"
+
+[deps]
+
+files=["res://.godot/imported/railings.obj-ae060a691d9e1ec9cd7ec9e21d58e632.mesh"]
+
+source_file="res://railings.obj"
+dest_files=["res://.godot/imported/railings.obj-ae060a691d9e1ec9cd7ec9e21d58e632.mesh", "res://.godot/imported/railings.obj-ae060a691d9e1ec9cd7ec9e21d58e632.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

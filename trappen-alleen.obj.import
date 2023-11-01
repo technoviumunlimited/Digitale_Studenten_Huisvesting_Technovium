@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cxo34xnk8enu3"
+path="res://.godot/imported/trappen-alleen.obj-d9c8341ca4b1d47b7684221a15d7d5da.mesh"
+
+[deps]
+
+files=["res://.godot/imported/trappen-alleen.obj-d9c8341ca4b1d47b7684221a15d7d5da.mesh"]
+
+source_file="res://trappen-alleen.obj"
+dest_files=["res://.godot/imported/trappen-alleen.obj-d9c8341ca4b1d47b7684221a15d7d5da.mesh", "res://.godot/imported/trappen-alleen.obj-d9c8341ca4b1d47b7684221a15d7d5da.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
