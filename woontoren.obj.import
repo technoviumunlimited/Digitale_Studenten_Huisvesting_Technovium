@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://krt1pfa6pd4g"
+path="res://.godot/imported/woontoren.obj-7aadb3bc415673e0c90122dc7b3436e9.mesh"
+
+[deps]
+
+files=["res://.godot/imported/woontoren.obj-7aadb3bc415673e0c90122dc7b3436e9.mesh"]
+
+source_file="res://woontoren.obj"
+dest_files=["res://.godot/imported/woontoren.obj-7aadb3bc415673e0c90122dc7b3436e9.mesh", "res://.godot/imported/woontoren.obj-7aadb3bc415673e0c90122dc7b3436e9.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
