@@ -1,4 +1,4 @@
-[gd_scene load_steps=24 format=3 uid="uid://b0n18hf0b6mj5"]
+[gd_scene load_steps=26 format=3 uid="uid://b0n18hf0b6mj5"]
 
 [ext_resource type="Script" path="res://main.gd" id="1_n2qpk"]
 [ext_resource type="ArrayMesh" uid="uid://dlbmvc2g7oa6y" path="res://assets/obj/building_v1.obj" id="2_0jtr8"]
@@ -8,6 +8,8 @@
 [ext_resource type="ArrayMesh" uid="uid://cxo34xnk8enu3" path="res://trappen-alleen.obj" id="7_cag1n"]
 [ext_resource type="PackedScene" uid="uid://d4nde4kk826ct" path="res://menu.tscn" id="7_d7yec"]
 [ext_resource type="ArrayMesh" uid="uid://dftsp0yyr654t" path="res://railings.obj" id="8_fpuls"]
+[ext_resource type="ArrayMesh" uid="uid://b1bm0ecf7e1a" path="res://assets/obj/meubels.obj" id="9_x273n"]
+[ext_resource type="ArrayMesh" uid="uid://bwsnpgnmh5nfq" path="res://assets/obj/badkamer.obj" id="10_pvhe4"]
 
 [sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_l472y"]
 panorama = ExtResource("2_clwcx")
@@ -162,3 +164,13 @@ mesh = ExtResource("8_fpuls")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="building/StaticBody3D"]
 shape = SubResource("ConvexPolygonShape3D_0sqhy")
+
+[node name="meubels" type="StaticBody3D" parent="building"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="building/meubels"]
+mesh = ExtResource("9_x273n")
+
+[node name="badkamer" type="StaticBody3D" parent="building"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="building/badkamer"]
+mesh = ExtResource("10_pvhe4")
